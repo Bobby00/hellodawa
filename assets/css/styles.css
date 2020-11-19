@@ -1,0 +1,110 @@
+/*SETTING DEFAULT FONT TO POPPINS*/
+a, span, p, body {
+	font-family: 'Poppins', Sanserif;
+}
+
+
+
+.app-brand {
+	background-color: unset;
+}
+body {
+	background-color: #FAFAFA!important;
+}
+
+.app-brand a {
+	padding-top: 0.8rem;
+	padding-left: 2.56rem;
+}
+
+.app-brand a img {
+	max-width: 90px;
+}
+.sidebar .nav > li > a i {
+	width: 35px;
+}
+
+.sidebar .sidebar-inner > li.active {
+	background-color: #F2994A;
+	border-radius: 0px 30px 30px 0px;
+}
+
+.sidebar .nav > li.active > a i {
+	color: white;
+}
+
+.sidebar-light .sidebar .nav > li.active > a {
+	color: white;
+}
+
+.sidebar .sidebar-inner > li > a:before {
+	background: unset;
+}
+
+
+
+.fnt-40px {
+	font-size: 40px;
+}
+
+
+
+.clr-black-600 {
+	color: black;
+	font-weight: 600;
+}
+.clr-black-700 {
+	color: black;
+	font-weight: 700;
+}
+
+.sub-heading-main {
+	font-size: 24px;
+	font-weight: 700;
+	color: #858585;
+	padding-top: 5px;
+}
+
+.sidebar .nav > li > a i {
+	color: #2E803F;
+	font-size: 30px;
+}
+
+
+.sidebar li > a .caret:before {
+	color:#F2994A;
+	font-size: 32px; 
+}
+
+.sidebar .sidebar-inner > li.has-sub:hover {
+	background-color: #f2994a24;
+	border-radius: 0px 30px 30px 0px;
+}
+
+.btn-01 {
+	border: 1px solid #6E41E2;
+    padding: 10px 20px;
+    color: #6E41E2;
+    border-radius: 3px;
+}
+
+.btn-01:hover {
+	border: 1px solid #6E41E2;
+    padding: 10px 20px;
+    background-color: #6E41E2;
+    color: #FFFFFF;
+    border-radius: 3px;
+}
+
+
+@media (min-width: 1500px) {
+	.content {
+	    padding: 2.5rem 18.75rem;
+	}
+}
+
+@media (min-width: 1200px) {
+	.sidebar .sidebar-inner {
+	    margin-top: 3.2rem;
+	}
+}
