@@ -3,7 +3,13 @@ a, span, p, body {
 	font-family: 'Poppins', Sanserif;
 }
 
+.daterangepicker .ranges li {
+	font-family: 'Poppins', Sanserif;
+}
 
+.badge {
+	border-radius: 30px;
+}
 
 .app-brand {
 	background-color: unset;
@@ -42,12 +48,16 @@ body {
 }
 
 
-
+.fnt-24px {
+	font-size: 24px;
+}
 .fnt-40px {
 	font-size: 40px;
 }
 
-
+.clr-grey {
+	color: #858585;
+}
 
 .clr-black-600 {
 	color: black;
@@ -55,6 +65,10 @@ body {
 }
 .clr-black-700 {
 	color: black;
+	font-weight: 700;
+}
+
+.w8-700 {
 	font-weight: 700;
 }
 
@@ -94,6 +108,87 @@ body {
     background-color: #6E41E2;
     color: #FFFFFF;
     border-radius: 3px;
+}
+
+.btn-01-inv {
+	border: 1px solid #6E41E2;
+    padding: 10px 20px;
+    color: #ffffff;
+	border-radius: 3px;
+	background-color: #6E41E2;
+}
+.btn-01-inv:hover {
+	border: 1px solid #6E41E2;
+    padding: 10px 20px;
+    background-color: white;
+    color: #6E41E2;
+    border-radius: 3px;
+}
+
+.breadcrumbs {
+	margin-bottom: 5%;
+}
+.active-crumb {
+	font-weight: 700;
+	color: black;
+}
+
+
+.flt-rght {
+	float: right;
+}
+
+tr th:last-child {
+	text-align: right;
+}
+
+
+
+.mgn-tp-5pc {
+	margin-top: 5%;
+}
+
+
+.modal-title {
+	font-size: 32px;
+    font-weight: 700;
+    color: black;
+}
+.modal-header {
+	padding: 1rem 1.5rem;
+}
+.modal-body {
+	padding: 1rem 1.5rem;
+}
+
+.modal-stuff p {
+	font-size: 14px;
+	color: black;
+	padding-top: 15px;
+}
+
+.modal-stuff-2 p {
+	font-size: 14px;
+	font-weight: 700;
+	color: black;
+	padding-top: 15px;
+}
+
+.modal-stuff-span span {
+	margin-top: 12px;
+}
+
+.modal-header .close {
+	border-radius: 30px;
+	color: white;
+	background-color: #6E41E2;
+    padding: 0.6rem 0.8rem;
+    margin: -1rem -1rem -1rem auto;
+}
+
+
+.sidebar-fixed-offcanvas .sidebar-with-footer, .sidebar-fixed .sidebar-with-footer {
+	padding-bottom: unset;
 }
 
 
