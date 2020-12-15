@@ -23,6 +23,11 @@
   <!-- SLEEK CSS -->
   <link id="sleek-css" rel="stylesheet" href="assets/css/sleek.css" />
 
+
+
+  <!-- CUSTOM CSS FILE -->
+  <link id="sleek-css" rel="stylesheet" href="assets/css/styles.css" />
+
   <!-- FAVICON -->
   <link href="assets/img/favicon.png" rel="shortcut icon" />
 
@@ -43,8 +48,7 @@
   <body class="" id="body">
       <div class="container d-flex flex-column justify-content-between vh-100">
       <div class="row justify-content-center mt-5">
-        <div class="col-xl-5 col-lg-6 col-md-10">
-          <div class="card">
+        <div class="col-xl-6 col-lg-7 col-md-10">
             <!-- <div class="card-header bg-primary">
               <div class="app-brand">
                 <a href="/index.html">
@@ -59,37 +63,101 @@
                 </a>
               </div>
             </div> -->
-            <div class="card-body p-5">
+           
 
-              <h4 class="text-dark mb-5">Sign In</h4>
-              <form action="/index.html">
-                <div class="row">
-                  <div class="form-group col-md-12 mb-4">
-                    <input type="email" class="form-control input-lg" id="email" aria-describedby="emailHelp" placeholder="Username">
-                  </div>
-                  <div class="form-group col-md-12 ">
-                    <input type="password" class="form-control input-lg" id="password" placeholder="Password">
-                  </div>
-                  <div class="col-md-12">
-                    <div class="d-flex my-2 justify-content-between">
-                      <div class="d-inline-block mr-3">
-                        <label class="control control-checkbox">Remember me
-                          <input type="checkbox" />
-                          <div class="control-indicator"></div>
-                        </label>
-
-                      </div>
-                      <p><a class="text-blue" href="#">Forgot Your Password?</a></p>
+              <div class="card card-default">
+                <div class="card-header card-header-border-bottom">
+                  <h2>Custom List Tabs</h2>
+                </div>
+                <div class="card-body">
+                  <ul class="nav nav-tabs nav-style-border pl-0 justify-content-between justify-content-xl-start mb-4" id="myTab" role="tablist">
+                    <li class="nav-item">
+                      <a class="nav-link active" id="home2-tab" data-toggle="tab" href="#home2" role="tab" aria-controls="home2" aria-selected="true">Register</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="profile2-tab" data-toggle="tab" href="#profile2" role="tab" aria-controls="profile2" aria-selected="false">Login</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content" id="myTabContent3">
+                    <div class="tab-pane pt-3 fade show active" id="home2" role="tabpanel" aria-labelledby="home2-tab">
+                      <form action="/index.html">
+                        <div class="row">
+                          <div class="form-group col-md-12 mb-4">
+                            <p class="mb-4">Select account</p>
+                            <ul class="list-unstyled list-inline">
+                              <li class="d-inline-block mr-3">
+                                <label class="control control-radio">Doctor
+                                  <input type="radio" name="option" checked="checked" />
+                                  <div class="control-indicator"></div>
+                                </label>
+                              </li>
+                              <li class="d-inline-block mr-3">
+                                <label class="control control-radio">Pharmaceutical Technologist
+                                  <input type="radio" name="option" />
+                                  <div class="control-indicator"></div>
+                                </label>
+                              </li>
+                              <li class="d-inline-block">
+                                <label class="control control-radio">Admin
+                                  <input type="radio" name="option" />
+                                  <div class="control-indicator"></div>
+                                </label>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="form-group col-md-12 mb-4">
+                            <input type="text" class="form-control input-lg" id="name" aria-describedby="emailHelp" placeholder="Your Name">
+                          </div>
+                          <div class="form-group col-md-12 mb-4">
+                            <input type="email" class="form-control input-lg" id="email" aria-describedby="emailHelp" placeholder="E-mail">
+                          </div>
+                          <div class="form-group col-md-12 mb-4">
+                            <input type="number" class="form-control input-lg" id="number" aria-describedby="emailHelp" placeholder="Phone Number">
+                          </div>
+                          <div class="form-group col-md-12 ">
+                            <input type="password" class="form-control input-lg" id="password" placeholder="Password">
+                          </div>
+                          <div class="col-md-12">
+                            <button type="submit" class="btn btn-lg btn-01-inv btn-block mb-4">Register</button>
+                            <p>Already have an account?
+                              <a class="text-blue" href="#">Sign in</a>
+                            </p>
+                          </div>
+                        </div>
+                      </form>
                     </div>
-                    <button type="submit" class="btn btn-lg btn-primary btn-block mb-4">Sign In</button>
-                    <p>Don't have an account yet ?
-                      <a class="text-blue" href="sign-up.html">Sign Up</a>
-                    </p>
+                    <div class="tab-pane pt-3 fade" id="profile2" role="tabpanel" aria-labelledby="profile2-tab">
+                      <form action="/index.html">
+                        <div class="row">
+                          <div class="form-group col-md-12 mb-4">
+                            <input type="email" class="form-control input-lg" id="email" aria-describedby="emailHelp" placeholder="E-mail">
+                          </div>
+                          <div class="form-group col-md-12 ">
+                            <input type="password" class="form-control input-lg" id="password" placeholder="Password">
+                          </div>
+                          <div class="col-md-12">
+                            <div class="d-flex my-2 justify-content-between">
+                              <div class="d-inline-block mr-3">
+                                <label class="control control-checkbox">Remember me
+                                  <input type="checkbox" />
+                                  <div class="control-indicator"></div>
+                                </label>
+
+                              </div>
+                              <p><a class="text-blue" href="#">Forgot Your Password?</a></p>
+                            </div>
+                            <button type="submit" class="btn btn-lg btn-01-inv btn-block mb-4">Sign In</button>
+                            <p>Don't have an account yet ?
+                              <a class="text-blue" href="#">Register</a>
+                            </p>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
                   </div>
                 </div>
-              </form>
-            </div>
-          </div>
+              </div>
+          
         </div>
       </div>
       <div class="copyright pl-0">
@@ -99,4 +167,13 @@
     </div>
 
 </body>
+
+<script src="assets/plugins/jquery/jquery.min.js"></script>
+<script src="assets/plugins/slimscrollbar/jquery.slimscroll.min.js"></script>
+<script src="assets/plugins/jekyll-search.min.js"></script>
+
+
+
+<script src="assets/js/sleek.bundle.js"></script>
+
 </html>

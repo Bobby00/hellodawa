@@ -192,6 +192,56 @@ tr th:last-child {
 }
 
 
+
+.card .card-header .btn-link span {
+	font-size: 18px;
+	font-weight: 700;
+	color: #858585;
+}
+
+
+
+.accordion .card-header .btn[aria-expanded="false"]:after, .accordion .card-header a[aria-expanded="false"]:after {
+	content: "open";
+	padding: 6px 12px;
+	border-radius: 3px;
+	font-family: inherit;
+	color: #8a909d;
+	border: 1px solid #8a909d;
+
+}
+
+.accordion-shadow .card-header .btn[aria-expanded="true"]:after, .accordion-shadow .card-header a[aria-expanded="true"]:after {
+	content: "close";
+	padding: 6px 12px;
+	border-radius: 3px;
+	font-family: inherit;
+	color: #6E41E2;
+	border: 1px solid #6E41E2;
+}
+
+.nav-tabs.nav-style-border .nav-item .nav-link:after {
+	background: #6E41E2!important;
+}
+
+
+.control {
+	padding-left: 1.76rem;
+}
+
+.control-indicator {
+	height: 20px;
+	width: 20px;
+	background: #E3DAF9;
+}
+
+.control-radio .control-indicator:after {
+	height: 10px;
+	width: 10px;
+}
+
+
+
 @media (min-width: 1500px) {
 	.content {
 	    padding: 2.5rem 18.75rem;
